@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F252662625B309BA0001D324 /* MaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252662525B309BA0001D324 /* MaskViewController.swift */; };
+		F252662A25B309E90001D324 /* MaskPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252662925B309E90001D324 /* MaskPushTransition.swift */; };
+		F252663025B30C220001D324 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252662F25B30C220001D324 /* MaskView.swift */; };
+		F252663B25B362E90001D324 /* MoveElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252663A25B362E90001D324 /* MoveElementsViewController.swift */; };
+		F252664025B363200001D324 /* FoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252663F25B363200001D324 /* FoldViewController.swift */; };
+		F252664425B363440001D324 /* FoldTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252664325B363430001D324 /* FoldTransition.swift */; };
+		F252664825B388190001D324 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F252664725B388190001D324 /* ColorExtension.swift */; };
+		F258214B25B242FC00E81A19 /* ImageLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258214A25B242FC00E81A19 /* ImageLabelViewController.swift */; };
+		F258214F25B2431E00E81A19 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258214E25B2431E00E81A19 /* ImageLabelView.swift */; };
+		F258215A25B306A000E81A19 /* MoveElementsTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258215925B306A000E81A19 /* MoveElementsTransition.swift */; };
+		F261A1C425B409D000C3AB3A /* TileTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F261A1C325B409D000C3AB3A /* TileTransition.swift */; };
+		F261A1C725B40A8000C3AB3A /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F261A1C625B40A8000C3AB3A /* TileViewController.swift */; };
 		F2A2844125B200AB003E72C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2844025B200AB003E72C8 /* AppDelegate.swift */; };
 		F2A2844325B200AB003E72C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2844225B200AB003E72C8 /* SceneDelegate.swift */; };
-		F2A2844525B200AB003E72C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2844425B200AB003E72C8 /* ViewController.swift */; };
-		F2A2844825B200AB003E72C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A2844625B200AB003E72C8 /* Main.storyboard */; };
 		F2A2844A25B200B7003E72C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A2844925B200B7003E72C8 /* Assets.xcassets */; };
 		F2A2844D25B200B7003E72C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A2844B25B200B7003E72C8 /* LaunchScreen.storyboard */; };
+		F2A2845625B2011B003E72C8 /* TransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2845525B2011B003E72C8 /* TransitionsViewController.swift */; };
+		F2A2845B25B20558003E72C8 /* RandomColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2845A25B20558003E72C8 /* RandomColorViewController.swift */; };
+		F2A2845E25B20731003E72C8 /* FromBottomPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2845D25B20731003E72C8 /* FromBottomPushTransition.swift */; };
+		F2A2846125B20A56003E72C8 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2846025B20A56003E72C8 /* NavigationControllerDelegate.swift */; };
+		F2A2846425B20CE3003E72C8 /* FromBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2846325B20CE3003E72C8 /* FromBottomViewController.swift */; };
+		F2A2846725B20F92003E72C8 /* ToBottomPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2846625B20F92003E72C8 /* ToBottomPopTransition.swift */; };
+		F2F544FF25B4651C000C7BC3 /* MaskPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F544FE25B4651C000C7BC3 /* MaskPopTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F252662525B309BA0001D324 /* MaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewController.swift; sourceTree = "<group>"; };
+		F252662925B309E90001D324 /* MaskPushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPushTransition.swift; sourceTree = "<group>"; };
+		F252662F25B30C220001D324 /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
+		F252663A25B362E90001D324 /* MoveElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveElementsViewController.swift; sourceTree = "<group>"; };
+		F252663F25B363200001D324 /* FoldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldViewController.swift; sourceTree = "<group>"; };
+		F252664325B363430001D324 /* FoldTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldTransition.swift; sourceTree = "<group>"; };
+		F252664725B388190001D324 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F258214A25B242FC00E81A19 /* ImageLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelViewController.swift; sourceTree = "<group>"; };
+		F258214E25B2431E00E81A19 /* ImageLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		F258215925B306A000E81A19 /* MoveElementsTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveElementsTransition.swift; sourceTree = "<group>"; };
+		F261A1C325B409D000C3AB3A /* TileTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileTransition.swift; sourceTree = "<group>"; };
+		F261A1C625B40A8000C3AB3A /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
 		F2A2843D25B200AB003E72C8 /* AnimatedTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A2844025B200AB003E72C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A2844225B200AB003E72C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2A2844425B200AB003E72C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2A2844725B200AB003E72C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A2844925B200B7003E72C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A2844C25B200B7003E72C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2A2844E25B200B7003E72C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A2845525B2011B003E72C8 /* TransitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsViewController.swift; sourceTree = "<group>"; };
+		F2A2845A25B20558003E72C8 /* RandomColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorViewController.swift; sourceTree = "<group>"; };
+		F2A2845D25B20731003E72C8 /* FromBottomPushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromBottomPushTransition.swift; sourceTree = "<group>"; };
+		F2A2846025B20A56003E72C8 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		F2A2846325B20CE3003E72C8 /* FromBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromBottomViewController.swift; sourceTree = "<group>"; };
+		F2A2846625B20F92003E72C8 /* ToBottomPopTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBottomPopTransition.swift; sourceTree = "<group>"; };
+		F2F544FE25B4651C000C7BC3 /* MaskPopTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPopTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +71,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F252662825B309CD0001D324 /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				F252662525B309BA0001D324 /* MaskViewController.swift */,
+				F252662F25B30C220001D324 /* MaskView.swift */,
+				F252662925B309E90001D324 /* MaskPushTransition.swift */,
+				F2F544FE25B4651C000C7BC3 /* MaskPopTransition.swift */,
+			);
+			path = Mask;
+			sourceTree = "<group>";
+		};
+		F252664225B363280001D324 /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				F252663F25B363200001D324 /* FoldViewController.swift */,
+				F252664325B363430001D324 /* FoldTransition.swift */,
+			);
+			path = Fold;
+			sourceTree = "<group>";
+		};
+		F258214925B242A300E81A19 /* FromBottom */ = {
+			isa = PBXGroup;
+			children = (
+				F2A2846325B20CE3003E72C8 /* FromBottomViewController.swift */,
+				F2A2845D25B20731003E72C8 /* FromBottomPushTransition.swift */,
+				F2A2846625B20F92003E72C8 /* ToBottomPopTransition.swift */,
+			);
+			path = FromBottom;
+			sourceTree = "<group>";
+		};
+		F258215125B3014000E81A19 /* MoveElements */ = {
+			isa = PBXGroup;
+			children = (
+				F252663A25B362E90001D324 /* MoveElementsViewController.swift */,
+				F258215925B306A000E81A19 /* MoveElementsTransition.swift */,
+			);
+			path = MoveElements;
+			sourceTree = "<group>";
+		};
+		F261A1C925B40A9300C3AB3A /* Tile */ = {
+			isa = PBXGroup;
+			children = (
+				F261A1C325B409D000C3AB3A /* TileTransition.swift */,
+				F261A1C625B40A8000C3AB3A /* TileViewController.swift */,
+			);
+			path = Tile;
+			sourceTree = "<group>";
+		};
 		F2A2843425B200AB003E72C8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +140,17 @@
 			children = (
 				F2A2844025B200AB003E72C8 /* AppDelegate.swift */,
 				F2A2844225B200AB003E72C8 /* SceneDelegate.swift */,
-				F2A2844425B200AB003E72C8 /* ViewController.swift */,
-				F2A2844625B200AB003E72C8 /* Main.storyboard */,
+				F2A2845525B2011B003E72C8 /* TransitionsViewController.swift */,
+				F2A2846025B20A56003E72C8 /* NavigationControllerDelegate.swift */,
+				F2A2845A25B20558003E72C8 /* RandomColorViewController.swift */,
+				F258214A25B242FC00E81A19 /* ImageLabelViewController.swift */,
+				F258214E25B2431E00E81A19 /* ImageLabelView.swift */,
+				F252664725B388190001D324 /* ColorExtension.swift */,
+				F258215125B3014000E81A19 /* MoveElements */,
+				F258214925B242A300E81A19 /* FromBottom */,
+				F252662825B309CD0001D324 /* Mask */,
+				F261A1C925B40A9300C3AB3A /* Tile */,
+				F252664225B363280001D324 /* Fold */,
 				F2A2844925B200B7003E72C8 /* Assets.xcassets */,
 				F2A2844B25B200B7003E72C8 /* LaunchScreen.storyboard */,
 				F2A2844E25B200B7003E72C8 /* Info.plist */,
@@ -126,7 +217,6 @@
 			files = (
 				F2A2844D25B200B7003E72C8 /* LaunchScreen.storyboard in Resources */,
 				F2A2844A25B200B7003E72C8 /* Assets.xcassets in Resources */,
-				F2A2844825B200AB003E72C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +227,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A2844525B200AB003E72C8 /* ViewController.swift in Sources */,
+				F252664025B363200001D324 /* FoldViewController.swift in Sources */,
+				F2A2845E25B20731003E72C8 /* FromBottomPushTransition.swift in Sources */,
+				F261A1C425B409D000C3AB3A /* TileTransition.swift in Sources */,
+				F258214F25B2431E00E81A19 /* ImageLabelView.swift in Sources */,
+				F261A1C725B40A8000C3AB3A /* TileViewController.swift in Sources */,
+				F252664825B388190001D324 /* ColorExtension.swift in Sources */,
+				F258215A25B306A000E81A19 /* MoveElementsTransition.swift in Sources */,
+				F252664425B363440001D324 /* FoldTransition.swift in Sources */,
+				F258214B25B242FC00E81A19 /* ImageLabelViewController.swift in Sources */,
 				F2A2844125B200AB003E72C8 /* AppDelegate.swift in Sources */,
+				F2A2846425B20CE3003E72C8 /* FromBottomViewController.swift in Sources */,
+				F2A2845B25B20558003E72C8 /* RandomColorViewController.swift in Sources */,
 				F2A2844325B200AB003E72C8 /* SceneDelegate.swift in Sources */,
+				F2A2846125B20A56003E72C8 /* NavigationControllerDelegate.swift in Sources */,
+				F2A2846725B20F92003E72C8 /* ToBottomPopTransition.swift in Sources */,
+				F252663B25B362E90001D324 /* MoveElementsViewController.swift in Sources */,
+				F2F544FF25B4651C000C7BC3 /* MaskPopTransition.swift in Sources */,
+				F252662A25B309E90001D324 /* MaskPushTransition.swift in Sources */,
+				F252662625B309BA0001D324 /* MaskViewController.swift in Sources */,
+				F252663025B30C220001D324 /* MaskView.swift in Sources */,
+				F2A2845625B2011B003E72C8 /* TransitionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2A2844625B200AB003E72C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2A2844725B200AB003E72C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2A2844B25B200B7003E72C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
