@@ -27,8 +27,8 @@ class MaskViewController: RandomColorViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let gestureRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(pan(_:)))
-    gestureRecognizer.edges = .left
+    let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(pan(_:)))
+//    gestureRecognizer.edges = .left
     view.addGestureRecognizer(gestureRecognizer)
   }
   
@@ -40,7 +40,7 @@ class MaskViewController: RandomColorViewController {
 }
 
 extension MaskViewController {
-  @objc func pan(_ sender: UIScreenEdgePanGestureRecognizer) {
+  @objc func pan(_ sender: UIPanGestureRecognizer) {
     
     let translation = sender.translation(in: view)
     
